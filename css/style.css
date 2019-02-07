@@ -1,7 +1,8 @@
 body { 
     background-color: whitesmoke;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: "Helvetica Neue" , Arial, sans-serif; 
     height: 100vh;
+    line-height: 22px
     display: flex;
     flex-direction: column;
 }
@@ -24,9 +25,17 @@ h1 , h2{
 h1{ 
     text-align: center;
     font-size: 4em;
-    font-weight: 100;
+    font-weight: 400;
+    /* font-weight: 600; */
 }
-h2{font-size: 2em}
+h2{
+    font-size: 2em;
+    font-weight: 300;
+}
+
+p{
+    color: grey;
+}
 
 ul {list-style-type: none;
 padding-left: 0}
@@ -43,10 +52,7 @@ li{padding: 0 0 4px 0}
 }
 
 .seccion-image {
-    /* border-style: dashed;
-    border-color: #225197; */
     size: 100%;
-    padding-right: 5em;
 }
 
 /* .seccion-text {
